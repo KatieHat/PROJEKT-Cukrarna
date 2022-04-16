@@ -31,5 +31,189 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: Lora;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
+
 }
 
+
+h1, h2, h3 {
+	font-family: 'Playfair Display';
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+}
+
+h2  {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	font-size: 18px;
+	color: #3e606b;
+}
+
+.logo {
+	width: 170px;
+}
+
+.menu li {
+	display:inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 20px;
+	color: #3e606b;
+}
+
+.menu a:hover {
+	background-color: #d2567d;
+	color: white;
+}
+
+img {
+	border-radius: 5px;
+}
+
+header {
+	display: flex;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	justify-content: space-between;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.hero, .vitejte, .nabidka, .pristup {
+	padding-top: 80px;
+	padding-bottom: 80px;
+
+}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	color: white;
+	
+}
+
+
+.blok-hero {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+.text-hero {
+	padding-right: 40%;
+}
+
+.prostredni-sekce {
+	background-color: #f0f0f0;
+}
+
+.nabidka {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+
+.produkty {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.produkty img {
+	border-bottom-left-radius: 0%;
+	border-bottom-right-radius: 0%;
+	max-width: 100%;
+	
+}
+
+.produkt-prvni, .produkt-stred, .produkt-posledni {
+	text-align: center;
+	display: block;
+	max-width: calc((100%-90px)/4);
+	border-radius: 5px;
+	background-color:white;
+	
+}
+
+.produkt-stred {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.produkt-prvni{
+
+	margin-right: 15px;
+}
+
+.produkt-posledni{
+	margin-left: 15px;
+
+}
+
+/* popisek = popisek produktu*/
+.popisek {
+	padding: 20px;
+}
+
+
+.vitejte, .pristup {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
+
+
+
+.text-vitej {
+	margin-right: 30px;
+}
+
+
+.tlacitko {
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.tlacitko:hover {
+	background-color: #d2567d;
+}
+
+
+.text-pristup {
+	margin-left: 30px;
+
+}
+
+footer {
+	background-color: #303339;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color:white;
+	text-align: center;
+}
+
+.zapati {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1100px;
+}
